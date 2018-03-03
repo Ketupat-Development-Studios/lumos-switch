@@ -1,5 +1,5 @@
 #include<SoftwareSerial.h>
-SoftwareSerial BTserial(3, 2);
+SoftwareSerial BTserial(3, 2);  //RX pin | TX pin (relative to the Arduino)
 
 char c = ' ';
 
