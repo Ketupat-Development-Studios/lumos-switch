@@ -56,6 +56,18 @@ Here's a [full list of AT commands](http://www.linotux.ch/arduino/HC-0305_serial
 
 You can use the [Bluetooth Terminal](https://play.google.com/store/apps/details?id=project.bluetoothterminal&hl=en) app on play store to quickly pair with your HC-05 module and test it out. If you still have your serial monitor up, you should be able to see the messages your phone is sending to the HC-05 module :D
 
+## Configured Commands
+
+Particular bluetooth commands are hard-coded into the firmware as triggers to move the servo. A 'contact sensor' (two pieces of conductive metal touching) is used to give feedback to the current switch position.
+
+```
+U -> 'Up' Movement of servo
+D -> 'Down' Movement of servo
+T -> Flicker lights in a certain order to signal device connection
+Closed circuit  -> C //Switch sensor detects one position
+Open circuit    -> O //Switch sensor detects the other position
+```
+
 # Files
 
 [**blue_shield**](blue_shield) -> Arduino firmware driving the switch
