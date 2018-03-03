@@ -4,11 +4,11 @@ We used a low-cost Arduino Uno micro-controller to prototype our device (mechani
 
 A 3d-printed housing is used to secure the servo onto the switch surface and a custom arduino shield was soldered on a breadboard to reduce the overall profile of our setup.
 
-![Circuit Diagram](Circuit_Diagram.png)
+<img src="Circuit_Diagram.png" width="560">
 
 Final overall setup:
 
-![Overall Setup](Setup.jpg)
+<img src="Setup.jpg" width="100%">
 
 ## Files
 
