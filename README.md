@@ -1,3 +1,7 @@
+# Demo
+
+https://www.youtube.com/watch?v=dtoTy4uD9vI
+
 # Lumos Switch Hardware - v0.0.1 Prototype
 
 We used a low-cost Arduino Uno micro-controller to prototype our device (mechanical IoT-enabled switch flipper) together with a HC-05 bluetooth module and a TowerPro SG90 servo.
